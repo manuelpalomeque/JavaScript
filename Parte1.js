@@ -48,3 +48,9 @@ function multiplica(x, y) {
   // Tu código:
   return x * y ;
 }
+
+function divide(x, y) {
+  // Divide "x" entre "y" y devuelve el valor
+  // Tu código:
+  return x / y ;
+}
