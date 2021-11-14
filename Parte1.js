@@ -145,3 +145,9 @@ function redondearNumero(num) {
   // Tu código:
   return Math.round(num);
 }
+
+function redondearHaciaArriba(num) {
+  // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
+  // Tu código:
+  return Math.ceil(num);
+}
