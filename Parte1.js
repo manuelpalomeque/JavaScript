@@ -212,5 +212,12 @@ function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
   return base * altura / 2 ;
+}
 
+function deEuroAdolar(euro){
+  //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
+  //como parámetro un número de euros y calcule el cambio en dólares.
+  //Escribe tu código aquí
+  dolar = euro * 1.2 ;
+  return dolar;
 }
