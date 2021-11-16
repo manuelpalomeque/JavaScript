@@ -13,4 +13,12 @@ todo el avance que haga lo subire acá.
         Introducción a las Funciones
         Control de flujo y operadores de comparación
 
+#### B) Parte 2:
+        Undefined y null
+        Operadores de comparación (continuación)
+        Flujos de control (continuación)
+        Operados lógicos
+        Bucles for
+        arguments
+
 
