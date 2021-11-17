@@ -186,3 +186,20 @@ function operadoresLogicos(num1, num2, num3) {
  else if(num1 === 0 || num2 === 0 || num3 === 0){
     return 'Error';
   }
+/* los dos de arriba tienen que estar arriba ya que si pusiera alguno de los de abajo arriba, terminaria el if
+CUIDADO CON EL ORDEN */
+
+  else if(num1 > num2 && num1 > num3 && num1 > 0){
+    return 'Número 1 es mayor y positivo';
+  }
+
+
+  else if(num3 > num1 && num3 > num2){
+    valor =  ++num3;
+    return valor;
+  }
+  else{
+    return false;
+  }
+
+}
