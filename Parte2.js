@@ -146,3 +146,27 @@ function esEntero(numero) {
     return false;
   }
 }
+
+function fizzBuzz(numero) {
+  // Si "numero" es divisible entre 3, devuelve "fizz"
+  // Si "numero" es divisible entre 5, devuelve "buzz"
+  // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
+  // De lo contrario, devuelve el numero
+
+  if(numero % 3 === 0 && numero % 5 === 0){
+    return 'fizzbuzz' ;
+  }
+  /* si no hubiera puesto el codigo de arriba arriba , se hubiera terminado el if e iba a dar error.
+  En &&  si uno es F todo es F, por eso sigue con los de abajo
+  CUIDADO CON EL ORDEN */
+
+  else if(numero % 5 === 0){
+    return 'buzz';
+  }
+  else if(numero % 3 === 0){
+    return 'fizz';
+  }
+  else{
+    return numero ;
+  }
+}
