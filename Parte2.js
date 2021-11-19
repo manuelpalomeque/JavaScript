@@ -242,3 +242,18 @@ function esVerdadero(valor){
     return 'Soy falso';
   }
 }
+
+function tablaDelSeis(){
+  //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
+  //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
+  //Escribe tu código aquí
+
+  var arrayTablaDel6 = [] ;
+
+  for( var x = 0 ; x <= 60 ; x++){
+    arrayTablaDel6.push(x);
+    x += 5;
+  }
+  return arrayTablaDel6
+
+}
