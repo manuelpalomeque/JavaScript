@@ -21,4 +21,7 @@ todo el avance que haga lo subire acá.
         Bucles for
         arguments
 
+#### C) Parte 3:
+        Arrays
+        Bucles `for` con arrays
 
