@@ -4,3 +4,8 @@ function devolverPrimerElemento(array) {
   return array[0]; // el elemento entre llaves indica el indice del valor a devolver
 }
 
+function devolverUltimoElemento(array) {
+  // Devuelve el último elemento de un array
+  // Tu código:
+  return array[array.length -1];
+}
