@@ -114,3 +114,21 @@ function numeroMasGrande(numeros) {
   }
   return numeroMayor;
 }
+
+function multiplicarArgumentos() {
+  // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
+  // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
+  // Escribe tu código aquí:
+
+  let total = 1; // debe empezar en 1, ya que cualquier numero multiplicado por 0 es igual a 0
+
+  if(arguments.length < 1){
+    return 0;
+  }
+  else{
+    for( let x = 0 ; x <arguments.length ; x++){
+      total = total * arguments[x];
+    }
+  }
+ return total;
+}
