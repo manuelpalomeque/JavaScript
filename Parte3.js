@@ -60,3 +60,16 @@ function dePalabrasAFrase(palabras) {
   // Tu código:
    return palabras.join(' ') ;
 }
+
+function arrayContiene(array, elemento) {
+  // Comprueba si el elemento existe dentro de "array"
+  // Devuelve "true" si está, o "false" si no está
+  // Tu código:
+
+  for(let x = 0 ; x < array.length ; x++){
+    if(array[x] === elemento){
+      return true ;
+    }
+  }
+  return false;
+}
