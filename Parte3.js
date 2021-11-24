@@ -223,3 +223,34 @@ function mayorACien(array) {
   }
   return nuevoArray2
 }
+
+function breakStatement(numero) {
+  //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
+  //Guardar cada nuevo valor en un array.
+  //Devolver el array
+  //Si en algún momento el valor de la suma y la cantidad de iteraciones coinciden, debe interrumpirse la ejecución y
+  //devolver: "Se interrumpió la ejecución"
+  //Pista: usá el statement 'break'
+  // Tu código:
+  var array = [];
+  var suma = numero;
+
+  for(var x = 0; x < 10; x++) {
+    suma = suma + 2;
+
+    if(suma === x){
+      break; // break termina con la sentencia (if), y continua con la siguiente (if), osea que ignoraria el else
+    }
+    else {
+      array.push(suma);
+    }
+  }
+
+  if(x < 10) {
+    return 'Se interrumpió la ejecución';
+  }
+  else {
+      return array;
+  }
+
+}
