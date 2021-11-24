@@ -188,3 +188,24 @@ function todosIguales(arreglo) {
   }
   return true;
 }
+
+function mesesDelAño(array) {
+  //Dado un array que contiene algunos meses del año desordenados, recorrer el array buscando los meses de
+  // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
+  //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
+  // Tu código:
+
+  var nuevoArray = [];
+
+  for(let x= 0; x < array.length; x++) {
+    if(array[x] === "Enero" || array[x] === "Marzo" || array[x] === "Noviembre") {
+      nuevoArray.push(array[x]);
+    }
+  }
+  if(nuevoArray.length < 3) { //menos de tres ya que son 3 los meses que se piden (enero, marzo, noviembre)
+    return "No se encontraron los meses pedidos";
+  }
+  else {
+      return nuevoArray; //si estan los tres meses , devulvo el array
+  }
+}
