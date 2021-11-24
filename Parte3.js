@@ -254,3 +254,25 @@ function breakStatement(numero) {
   }
 
 }
+
+function continueStatement(numero) {
+  //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
+  //Guardar cada nuevo valor en un array.
+  //Devolver el array
+  //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
+  //Pista: usá el statement 'continue'
+  // Tu código:
+  let suma = numero;
+  let array = [];
+
+  for( let x = 0 ; x < 10 ; x++){
+    if(x === 5){
+      continue; // cuando se da la condicion x === 5 , ignora el resto del codigo por unica vez, luego continua ejecutandolo
+    }
+    else {
+      suma = suma + 2 ;
+      array.push(suma);
+    }
+  }
+  return array;
+}
