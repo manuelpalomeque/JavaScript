@@ -14,3 +14,20 @@ function crearGato(nombre, edad) {
   };
   return objeto;
 }
+
+function agregarPropiedad(objeto, property) {
+  // Agrega una propiedad al objeto (argumento "objeto" es el objeto) con el valor `null`
+  // Devuelve el objeto
+  // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
+  //NOTA: El nombre de la propiedad debe ser el nombre es el valor del argumento llamado "property" (una cadena/string)
+  // Tu código:
+
+  /* var objeto = {
+    propiedad: valor,
+    property: null
+  };
+  */
+
+  objeto[property] = null ; // no me permite agregar de la forma: objeto.property . Si es con corchetes es porque property es una variable (?  no lo se
+  return objeto ;
+}
