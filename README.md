@@ -25,3 +25,10 @@ todo el avance que haga lo subire acá.
         Arrays
         Bucles `for` con arrays
 
+#### D) Parte 4:
+        Introducción a los Objetos
+        Métodos
+        Bucles `for…in`
+        Palabra clave `this`
+        Objetos en Javascript
+
