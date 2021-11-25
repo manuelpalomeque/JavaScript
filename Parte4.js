@@ -48,3 +48,20 @@ function invocarMetodo(objeto, metodo) {
 
   objeto[ metodo ](); // no se porque lo resuelven asi, yo lo hubiera resulto asi objeto.metodo() . Previo console.log(objeto.metodo())
 }
+
+function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
+  // "objetoMisterioso" es un objeto y tiene una propiedad llamada "numeroMisterioso"
+  // "objetoMisterioso"  tiene una propiedad llamada "numeroMisterioso"
+  // Multiplica el numeroMisterioso por 5 y devuelve el producto
+  // Tu código:
+
+ /*
+ var objetomisterioso = {
+    numeroMisterioso: xxxx
+ };
+ */
+
+  var resultado = objetoMisterioso.numeroMisterioso * 5 ;
+  return resultado;
+
+}
