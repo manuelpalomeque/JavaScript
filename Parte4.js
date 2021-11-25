@@ -65,3 +65,19 @@ function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   return resultado;
 
 }
+
+function eliminarPropiedad(objeto, unaPropiedad) {
+  // Elimina la propiedad de objeto cuyo nombre está pasado por el parametro unaPropiedad
+  // tip: tenes que usar bracket notation
+  // Devuelve el objeto
+  // Tu código:
+
+  /*
+    var objeto = {
+      unapropiedad: valor
+    };
+  */
+
+  delete objeto[unaPropiedad]; // tambien se podria resolver asi delete objeto.unaPropiedad , pero piden usar bracket notation
+  return objeto ;
+}
