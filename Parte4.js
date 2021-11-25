@@ -31,3 +31,20 @@ function agregarPropiedad(objeto, property) {
   objeto[property] = null ; // no me permite agregar de la forma: objeto.property . Si es con corchetes es porque property es una variable (?  no lo se
   return objeto ;
 }
+
+function invocarMetodo(objeto, metodo) {
+  // "metodo" contiene el nombre de un método (funcion) en el objeto
+  // "metodo" es una cadena  que contiene el nombre de un método (funcion) en el objeto
+  // Invoca ese método
+  // Nada necesita ser devuelto ("returned") . SOLO INVOCAR, no return ni console.log
+  // Tu código:
+
+  /* var objeto = {
+    metodo: function() {
+          aca se escribiria el codigo del metodo , pero no piden eso
+    }
+  };
+  */
+
+  objeto[ metodo ](); // no se porque lo resuelven asi, yo lo hubiera resulto asi objeto.metodo() . Previo console.log(objeto.metodo())
+}
