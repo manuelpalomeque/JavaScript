@@ -81,3 +81,17 @@ function eliminarPropiedad(objeto, unaPropiedad) {
   delete objeto[unaPropiedad]; // tambien se podria resolver asi delete objeto.unaPropiedad , pero piden usar bracket notation
   return objeto ;
 }
+
+function nuevoUsuario(nombre, email, password) {
+  // Crea un nuevo objeto con las propiedades coincidiendo con los argumentos que se pasan a la función
+  // Devuelve el objeto
+  // Tu código:
+
+
+  var objeto = {
+    nombre: nombre,
+    email: email,
+    password: password
+  };
+  return objeto;
+}
