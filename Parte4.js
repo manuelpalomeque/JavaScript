@@ -95,3 +95,24 @@ function nuevoUsuario(nombre, email, password) {
   };
   return objeto;
 }
+
+function tieneEmail(usuario) {
+  //usuario es un objeto
+  // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
+  // De lo contratio, devuelve "false"
+  // Tu código:
+
+  /*
+  var usuario = {
+    email: 'unmail@hotmail.com'
+  };
+  */
+
+
+  if(usuario['email']){  // al usar las comillas hacemos referencia al valor, sino estuvieran hariamos referencia a la propiedad
+    return true;
+  }
+  else{
+    return false;
+  }
+}
