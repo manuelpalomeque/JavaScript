@@ -116,3 +116,21 @@ function tieneEmail(usuario) {
     return false;
   }
 }
+
+function tienePropiedad(objeto, propiedad) {
+  // Devuelve "true" si el objeto (parámetro "objeto") tiene una propiedad (key) cuyo nombre es igual al valor del argumento "propiedad"
+  // "propiedad" es un string
+  // De lo contrario, devuelve "false"
+  // Tu código:
+
+  /*
+    var objeto = {
+      propiedad:  'valor'
+    };
+  */
+
+  if(objeto[propiedad]){ // al NO usar comillas se hace referencia a la propiedad
+    return true;
+  }
+  return false;
+}
