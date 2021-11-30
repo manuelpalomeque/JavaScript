@@ -186,3 +186,30 @@ function agregarAmigo(usuario, nuevoAmigo) {
   return usuario;
 }
 
+function pasarUsuarioAPremium(usuarios) {
+  //"usuarios" es un array que contiene varios objetos llamados "usuario"
+  // "usuarios" es un array de objetos "usuario"
+  // Cada objeto "usuario" tiene la propiedad "esPremium"
+  // Define cada propiedad "esPremium" de cada objeto como "true"
+  // Devuelve el array de usuarios
+  // Tu código:
+
+  /*
+  var usuarios = [
+      usuario = {
+          esPremium: valor
+        }
+      ,
+
+      usuario = {
+          esPremium: valor
+       }
+
+  ]
+  */
+
+  for(var x = 0; x < usuarios.length; x++) { // se usa usuarios.length para que recorra cara indice del array, en este caso cada indice es un objeto
+    usuarios[x].esPremium = true; // se le asigna el valor true , x define el valor del indice en el que esta trabajando
+  }
+  return usuarios;
+}
