@@ -170,4 +170,19 @@ function actualizarPassword(usuario, nuevaPassword) {
   return usuario;
 }
 
+function agregarAmigo(usuario, nuevoAmigo) {
+  // "usuario" tiene una propiedad llamada "amigos" que es un array
+  // Agrega "nuevoAmigo" al final de ese array
+  // Devuelve el objeto "usuario"
+  // // Tu código:
+
+  /*
+  var objeto = {
+    amigos: [0, 1, 2]
+  };
+  */
+
+  usuario.amigos.push(nuevoAmigo); //aplñica directamente el metodo .push en la propiedad amigos , ya que esta es un array
+  return usuario;
+}
 
