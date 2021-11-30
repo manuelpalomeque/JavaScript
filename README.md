@@ -32,4 +32,3 @@ todo el avance que haga lo subire acá.
         Palabra clave `this`
         Objetos en Javascript
 
-En proceso...
