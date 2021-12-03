@@ -10,3 +10,11 @@ function mayuscula(nombre) {
   // .toUpperCase solo no sirve, ya que me devolveria solo la primer letra en mayuscula, no todo el contenido
   // al sumar .slice , logro que me devuelva todo el valor de nombre con la primera en mayuscula.
 }
+
+function invocarCallback(cb) {
+  // Invoca al callback `cb`
+  //Tu código:
+
+  cb() // es igual que invocar una funcion normal
+
+}
