@@ -35,3 +35,8 @@ todo el avance que haga lo subire acá.
 #### E) Parte 5:
         Clases
         prototype
+
+#### F) Parte 6:
+        Callbacks
+        Más métodos de Arrays
+        Introducción a la programación funcional
