@@ -26,3 +26,15 @@ function operacionMatematica(n1, n2, cb) {
 
  return cb (n1, n2);
 }
+
+function sumarArray(numeros, cb) {
+  // Suma todos los números enteros (int/integers) de un array ("numeros")
+  // Pasa el resultado a `cb`
+  // No es necesario devolver nada
+  //Tu código:
+
+  var resultado = numeros.reduce(function cb(acc, cur){ // acc y cur son palabras reservadas. acc =contador acumulador ( onda x++),cur = valor actual que se analiza
+    return acc + cur;
+  }, 0);
+  cb(resultado);
+}
