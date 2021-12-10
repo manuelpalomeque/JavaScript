@@ -38,3 +38,13 @@ function sumarArray(numeros, cb) {
   }, 0);
   cb(resultado);
 }
+
+function forEach(array, cb) {
+  // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
+  // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
+  //Tu código:
+
+  array.forEach(function (cur, index){ // cur e index son palabras reservadas. cur = valor actual siendo procesado en el Array, Index= indice del elemento actual siendo procesado
+    cb(cur);
+  });
+}
